@@ -54,7 +54,7 @@ function startQuiz(){
 function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
-    qustionElement.innerHTML = questionNo + ". " + currentQuestionIndex.question;
+    qustionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
