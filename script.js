@@ -35,4 +35,4 @@ const questions = [
             { text: "Africa", correct: false},
         ]
     },
-]
+];
